@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+.header {
+  font-size: 2em;
+}
+
+.footer {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.5em; 
+}
+ul li {
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+} 
+.design_philosophy {
+  width: 75%;
+  color: lightgrey;
+  display: block;
+  text-decoration: none;
+  font-size: 5em;
+} 
+
+.pull-right {
+  right: 10px;
+}
+body {
+  background-color: grey;
+}
