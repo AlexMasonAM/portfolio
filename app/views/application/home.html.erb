@@ -1,23 +1,22 @@
-<div class="header">
-  <h1>Alex Mason</h1>
-</div>
-<div class="center-text">
-  <ul class="skills">
-    <li>web developer</li>
-    <li>design professional</li>
-    <li>chocolate enthuasist</li>
-  </ul>
-</div>
-<div class="design_philosophy">
-  <p>everything should be as simple as it needs to be, and no more simple.</p>
-  <p class="pull-right">--a.e.</p>
-</div>  
-<div class="footer">
-  <ul class="links">
-    <li class="github"><a href="https://github.com/AlexMasonAM" target="blank">github</a></li>
-    <li class="linkedin"><a href="https://www.linkedin.com/in/alexmasonam" target="blank">linkedin</a></li>
-    <li class="twitter"><a href="https://twitter.com/alexmasonAm" target="blank">twitter</a></li>
-    <li class="ga"><a href="https://generalassemb.ly/" target="blank">general assembly</a></li>
-    <li class="email"><a href="mailto:alexmmason@gmail.com">email</a></li>
-  </ul>
+<div class="container">
+  <div class="jumbotron">
+    <h1>alex m mason</h1>
+  </div>
+  <div class="center-text">
+    <ul class="skills">
+      <li>
+        <%= link_to 'web developer', projects_path %>
+      </li>
+      <li>
+        <%= link_to 'design professional', designs_path %>
+      </li>
+      <li>
+        <%= link_to 'chocolate enthuasist', interests_path %>
+      </li>
+    </ul>
+  </div>
+  <div class="design_philosophy">
+    <p>everything should be as simple as it can be, but not simpler.</p>
+    <p class="pull-right">--a.e.</p>
+  </div>  
 </div>

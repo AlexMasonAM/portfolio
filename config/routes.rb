@@ -7,5 +7,7 @@ Rails.application.routes.draw do
 
   root 'application#home'
 
-  get 'projects' => 'projects#index'
+  get 'projects/' => 'projects#index'
+  get 'designs/' => 'designs#index'
+  get 'interests/' => 'interests#index'
 end
