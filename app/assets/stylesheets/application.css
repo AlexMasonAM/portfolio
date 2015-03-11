@@ -60,9 +60,14 @@ ul li {
 }
 
 .container {
-  width: 95%;
+  width: 100%;
   text-align: center;
   display: block;
+  margin: auto;
+}
+.full-width {
+  padding: 0;
+  margin: 0;
 }
 
 .repeat p {
@@ -98,7 +103,7 @@ ul li {
   width: 100%;
   height: 600px;
   background-color: #2094ca;
-  background-image:url("AlexMasonAM-headshot-03");
+  background-image: image-url("AlexMasonAM-headshot-03");
   margin: 0 auto;
 }
 .background-white {
