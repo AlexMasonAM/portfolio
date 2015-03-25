@@ -1,3 +1,3 @@
-class Design
+class Skill
   include Mongoid::Document
 end
