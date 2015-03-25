@@ -4,9 +4,10 @@
   <title>alex m mason | web developer</title>
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
+  <%= favicon_link_tag 'AM-logo-02.png' %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body class="full-width">
   <%= render 'partials/header' %>
   <div class="container text-center">
     <%= yield %>
