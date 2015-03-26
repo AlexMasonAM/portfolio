@@ -1,0 +1,380 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+@font-face {
+  font-family: "TradeGothic";
+  src: url(/fonts/fonts/trade_gothic.ttf);
+}
+@font-face {
+  font-family: "Badabb";
+  src: url(/fonts/fonts/BADABB__.TTF);
+}
+@font-face {
+  font-family: "SfComic";
+  src: url(/fonts/fonts/sf_comic.TTF);
+}
+/* line 35, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.font-primary {
+  font-family: "TradeGothic";
+  font-size: 1.5em;
+  margin: 0px;
+  font-weight: 100;
+}
+
+/* line 41, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.font-secondary {
+  font-family: "Badabb";
+  font-size: 2.5em;
+  margin: 0;
+}
+
+/* line 46, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.font-tertiary {
+  font-family: "Pagal";
+  font-size: 2.5em;
+  margin: 0;
+}
+
+/* line 52, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.color-primary {
+  color: black;
+}
+
+/* line 55, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.header {
+  padding: 0;
+  /*background-color: grey;*/
+  max-width: 1280px;
+  /*right:  0px;*/
+  font-size: 1.25em;
+}
+
+/* line 62, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.jumbotron {
+  font-size: 1.75em;
+  margin-top: -55px;
+}
+
+/* line 66, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.jumbotron a {
+  text-decoration: none;
+  color: black;
+  margin-top: 1em;
+}
+
+/* line 71, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.jumbotron a:hover {
+  opacity: .75;
+  /*font-size: 135px; */
+  font-style: italic;
+}
+
+/* line 76, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.footer {
+  margin: 0 auto;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.25em;
+}
+
+/* line 82, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.footer ul a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 86, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.footer ul a:hover {
+  opacity: .75;
+  text-decoration: none;
+}
+
+/* line 90, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+body {
+  font-family: sans-serif;
+  background: #2094ca;
+}
+
+/* line 94, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+ul li {
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+  padding: .25em;
+}
+
+/* line 100, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.skills li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 105, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.skills li a:hover {
+  /*color: $color-quaterary;*/
+  /*opacity: .5;*/
+  font-style: italic;
+}
+
+/* line 110, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.design_philosophy {
+  width: 65%;
+  color: lightgrey;
+  display: block;
+  text-decoration: none;
+  /*font-size: 4em;*/
+  /*line-height: 1em;*/
+  font-size: 40px;
+  line-height: 48px;
+  margin: .75em auto;
+  text-align: left;
+}
+
+/* line 124, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.pull-right {
+  margin-top: -1em;
+  font-style: italic;
+  text-align: right;
+}
+
+/* line 130, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.pull-right-interests {
+  margin-top: 3em;
+  font-style: italic;
+  text-align: right;
+  display: inline-block;
+  right: 1em;
+  max-width: 67em;
+}
+
+/* line 138, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.pull-left-interests {
+  margin-top: -1em;
+  font-style: italic;
+  text-align: right;
+  display: inline-block;
+  left: 1em;
+}
+
+/* line 146, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.container {
+  width: 100%;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+/* line 152, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.full-width {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 157, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.repeat p {
+  text-align: center;
+  display: inline-block;
+  background-color: white;
+  margin: 1em;
+  width: 15em;
+  height: 15em;
+}
+
+/* line 165, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.repeat-projects {
+  text-align: center;
+  display: inline-block;
+  max-height: 650px;
+  max-width: 800px;
+}
+
+/* line 171, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.repeat-projects p {
+  text-align: center;
+  display: inline-block;
+  background-color: white;
+  margin: 1.5em;
+  width: 18em;
+  height: 18em;
+}
+
+/* line 180, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.repeat-projects p:hover {
+  margin: 1em;
+  width: 19em;
+  height: 19em;
+}
+
+/* line 186, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.left {
+  display: inline-block;
+  position: relative;
+  left: 0px;
+  text-align: left;
+}
+
+/* line 193, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.right {
+  display: inline-block;
+  position: relative;
+  right: -41em;
+  text-align: right;
+}
+
+/* line 200, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.headshoot {
+  border-radius: 30em;
+  width: 15em;
+  display: inline-block;
+  position: relative;
+}
+
+/* line 207, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.headshoot img {
+  width: 23em;
+  right: 23em;
+  position: relative;
+}
+
+/* line 214, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.current-interests {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  background-color: whitesmoke;
+  width: 100%;
+  height: 41.6125em;
+}
+
+/* line 223, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.background-header {
+  width: 100%;
+  height: 600px;
+}
+
+/* line 227, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.background-blue {
+  width: 100%;
+  height: 600px;
+  background-color: #2094ca;
+  background-image: url(/images/AlexMasonAM-headshot-03);
+  margin: 0 auto;
+}
+
+/* line 234, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.background-white {
+  width: 100%;
+  height: 600px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+/*Font Characteristics*/
+/* line 241, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.font-large {
+  /*font-size: 3em;*/
+  font-size: 136px;
+  margin-top: 1em;
+  /*font-style: italic;*/
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+}
+
+/* line 250, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.font-medium {
+  /*font-size: 3em;*/
+  transform: translate(-0.1em, -10.125em);
+  font-size: 63px;
+  margin-top: 1em;
+  font-style: italic;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+}
+
+/* line 261, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.font-normal {
+  font-style: normal;
+  display: inline-block;
+  position: absolute;
+}
+
+/* line 267, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.font-left {
+  transform: translate(0.95em, 0);
+}
+
+/* line 272, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.about-me {
+  transform: translate(-1.1em, -5.125em);
+}
+
+/* line 275, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.about-me-subtitle {
+  transform: translate(-2.4em, -11.125em);
+  font-size: 4.0625em;
+}
+
+/* line 280, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.list-me {
+  width: 25em;
+  transform: translate(-6.25em, -29.75em);
+  line-height: 1.125em;
+}
+
+/*SKILLS PAGE*/
+/* line 286, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.current-skills {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  background-color: whitesmoke;
+  width: 100%;
+  height: 41.6125em;
+}
+
+/* line 294, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.pull-right-skills {
+  margin-top: -1em;
+  font-style: italic;
+  text-align: right;
+  display: inline-block;
+  right: 1em;
+}
+
+/* line 301, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.pull-left-skills {
+  margin-top: -1em;
+  font-style: italic;
+  text-align: right;
+  display: inline-block;
+  left: 1em;
+}
+
+/*Background-Images*/
+/* line 310, /Users/AlexMason/Dev/AlexMasonAM/portfolio/portfolio/app/assets/stylesheets/application.scss */
+.home-image-large {
+  background-color: rgba(255, 255, 255, 0.8);
+  background-color: black;
+  background-image: url("blueprint-01.png");
+  /*  opacity: .25;
+    width: 46em;
+    height: 36em;
+    margin-top: -2.5em;
+    background-repeat: no-repeat;
+    margin-left: .5em;
+    margin-bottom: .5em;*/
+}
