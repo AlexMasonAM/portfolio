@@ -162,24 +162,34 @@ ul li {
   height: 15em;
 }
 .repeat-projects {
+  font-family: "TradeGothic";
   text-align: center;
   display: inline-block;
-  max-height: 650px;
-  max-width: 800px;
+  /*max-height: 650px;*/
+  /*max-width: 800px;*/
 }
 .repeat-projects p {
   text-align: center;
   display: inline-block;
-  background-color: white;
-  margin: 1.5em; 
-  width: 18em; 
-  height: 18em;
+  /*background-color: white;*/
+  margin: .25em;
+  width: 535px; 
+  height: 325px;
+/*  width: 18em; 
+  height: 18em;*/
 }
 
 .repeat-projects p:hover {
-  margin: 1em; 
-  width: 19em; 
-  height: 19em;
+  margin: .25em;
+  opacity: .5;
+  /*box-shadow: .5em .5em $color-quaterary;*/
+  transition: 1;
+  border-radius: 1px;
+  border: 2px solid white;
+  width: 535px; 
+  height: 325px; 
+/*  width: 19em; 
+  height: 19em;*/
 }
 
 .left {
@@ -306,15 +316,30 @@ ul li {
 }
 
 /*Background-Images*/
-.home-image-large {
-  background-color: $color-secondary;
-  background-color: $color-tertiary;
-  background-image: url($image-background);
+.project-image-01 {
+  background-image: url($project-image-01);
+  background-repeat: no-repeat;
 /*  opacity: .25;
-  width: 46em;
-  height: 36em;
+  width: 5em;
+  height: 5em;
   margin-top: -2.5em;
   background-repeat: no-repeat;
   margin-left: .5em;
   margin-bottom: .5em;*/
+}
+.project-image-02 {
+  background-image: url($project-image-02);
+  background-repeat: no-repeat;
+}
+.project-image-02:hover {
+  background-image: url($project-image-02);
+  background-repeat: no-repeat;
+}
+.project-image-03 {
+  background-image: url($project-image-03);
+  background-repeat: no-repeat;
+}
+.project-image-04 {
+  background-image: url($project-image-04);
+  background-repeat: no-repeat;
 }
